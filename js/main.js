@@ -1,6 +1,6 @@
-let android = 15.678;
-let iphone = 123.965;
-let windowsPhone = 90.2345;
+const android = 15.678;
+const iphone = 123.965;
+const windowsPhone = 90.2345;
 
 
 
@@ -17,7 +17,7 @@ const totalPrice = 229.8775;
 const ans3 = Math.round(totalPrice);
 console.log(ans3);
 
-let roundingPrice = 230;
+const roundingPrice = 230;
 
 
 const roundengSum = Math.floor( android) + Math.floor(iphone) + Math.floor(windowsPhone);
@@ -37,14 +37,14 @@ if(underRounded%2 === 0){
     console.log(false);
 }
 
-let client = 500;
+const client = 500;
     const surrender = Math.abs(underRounded-client);
     console.log(surrender);
 
-let avarage = Math.floor(((iphone + android + windowsPhone)*100) / 3) / 100;
+const avarage = Math.floor(((iphone + android + windowsPhone)*100) / 3) / 100;
 console.log(avarage);
 
-let random = getRandomInt;
+const random = getRandomInt;
 
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
@@ -52,12 +52,12 @@ function getRandomInt(max) {
   
   console.log(getRandomInt(100));
 
-  let price = 200;
+  const price = 200;
   const discountPercentage = 10 + Math.random() * (90 - 10 + 1);
   let discount = Number(discountPercentage.toFixed(2)) * Math.floor(price) / 100;
   console.log(discountPercentage);
 
-  let sum = Math.floor(price / 2 - discount);
+  const sum = Math.floor(price / 2 - discount);
   console.log(sum);
 
 
