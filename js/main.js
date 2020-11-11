@@ -70,6 +70,7 @@ function getRandomInt(max) {
        булеве значення ${underRounded}
        сума решти від вартості товару ${surrender}
        середнє значення цін ${avarage}
+       ціна товару ${price}
        випадкова знижка ${discountPercentage}
        результат після знижки ${sum}`
 
