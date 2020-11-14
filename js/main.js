@@ -13,11 +13,8 @@ const roundengSum = Math.floor( androidPhonePrice) + Math.floor(iphonePhonePrice
 console.log(roundengSum);
 let underRounded = Math.round(roundengSum/100)*100;
 console.log(underRounded);
-if(underRounded%2 === 0){
-    console.log(true);
-} else{
-    console.log(false);
-}
+let bollean = roundengSum%2===0;
+console.log(bollean);
 const client = 500;
 const surrenderClient = Math.abs(roundengSum-client);
 console.log(surrenderClient);
@@ -38,7 +35,7 @@ console.log(clearSalary);
        вартість товарів  ${totalPrice}
        округленна вартість без копійок ${roundengSum}
        округленна сума до сотень ${underRounded}
-       булеве значення ${true}
+       булеве значення ${bollean}
        сума решти від вартості товару ${surrenderClient}
        середнє значення цін ${avarage}
        випадкова знижка ${randomSale}%
